@@ -10,7 +10,7 @@ public class Argument {
 		this.variable = variable;
 		this.isValue = isValue;
 	}
-
+	
 	public static Argument value(Value value) {
 		return new Argument(value, null, true);
 	}
