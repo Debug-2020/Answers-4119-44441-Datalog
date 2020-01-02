@@ -110,9 +110,7 @@ public class Datalog {
 			res += arguments[i].toString();
 			res += ",";
 		}
-		if (arguments.length > 0) {
-			res += arguments[arguments.length - 1].toString();
-		}
+		res += arguments[arguments.length - 1].toString();
 		res += ")";
 		return res;
 	}

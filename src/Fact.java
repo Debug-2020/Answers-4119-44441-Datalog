@@ -45,8 +45,8 @@ public class Fact {
 			res += values[i].toString();
 			res += ",";
 		}
-		if (values.length >= 0) {
-			res += values[values.length - 1].toString();
+		if (values.length > 0) {
+			res += values[values.length - 2].toString();
 		}
 		res += ")";
 		return res;
